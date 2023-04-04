@@ -40,6 +40,7 @@ h2:last-child {
 	text-align: center;
 	padding: 2rem;
 	border: 1px solid white;
+	overflow: auto;
 }
 
 h2 > .result {
