@@ -7,3 +7,11 @@
 	Mostrare nella pagina un messaggio con lo span che comunica il contenuto della variabile PassWord
 */
 
+const firstName = prompt('Inserire il proprio nome:');
+console.log(firstName);
+const lastName = prompt('Inserire il proprio cognome');
+console.log(lastName);
+const prefColor = prompt('Inserire il proprio colore preferito');
+console.log(prefColor);
+const PassWord = firstName + lastName + prefColor + '23';
+console.log(PassWord);
