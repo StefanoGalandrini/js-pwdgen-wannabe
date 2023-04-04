@@ -5,7 +5,7 @@
 	Generare la password concatenando le variabili firstName, lastName e prefColor nella variabile PassWord
 	Selezionare l'ID dello span che dovrà contenere la variabile PassWord
 	Mostrare nella pagina un messaggio con lo span che comunica il contenuto della variabile PassWord
-	(La password viene "trasformata" in caratteri minuscoli dall'HTML)
+	(La password viene "trasformata" in caratteri minuscoli dal CSS)
 */
 
 const firstName = prompt('Inserire il proprio nome:');
