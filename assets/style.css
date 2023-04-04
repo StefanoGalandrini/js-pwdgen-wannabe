@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(70, 0, 130);
+	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+	max-width: 60vw;
+	margin-inline: auto;
+	padding: 5rem 0;
+}
+
+h1 {
+	font-size: 3rem;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+	margin-bottom: 5rem;
+}
+
+h2 {
+	font-weight: normal;
+	line-height: 3rem;
+}
+
+h2 > .data {
+	font-weight: bold;
+}
+
+h2:last-child {
+	margin-top: 5rem;
+	text-align: center;
+	padding: 2rem;
+	border: 1px solid white;
+}
+
+h2 > .result {
+	font-size: 2rem;
+	text-transform: lowercase;
+	font-weight: bold;
+}
