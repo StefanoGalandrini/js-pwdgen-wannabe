@@ -8,10 +8,14 @@
 */
 
 const firstName = prompt('Inserire il proprio nome:');
-console.log(firstName);
+// console.log(firstName);
 const lastName = prompt('Inserire il proprio cognome');
-console.log(lastName);
+// console.log(lastName);
 const prefColor = prompt('Inserire il proprio colore preferito');
-console.log(prefColor);
+// console.log(prefColor);
 const PassWord = firstName + lastName + prefColor + '23';
-console.log(PassWord);
+// console.log(PassWord);
+document.getElementById('first-name').innerHTML = firstName;
+document.getElementById('last-name').innerHTML = lastName;
+document.getElementById('color').innerHTML = prefColor;
+document.getElementById('pw-gen').innerHTML = PassWord;
